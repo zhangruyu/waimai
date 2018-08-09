@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #ECEBEB;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 3.6rem;
+	margin:0 auto;
+	background: #17E2D6;
+	position: relative; 
+}
+header .img1{
+	width: 100%;
+	height: 0.4rem;
+	display: block;
+}
+header .img2{
+	width: 0.25rem;
+	height: 0.4rem;
+	display: block;
+	position: absolute;
+	top: 0.66rem;
+	left: 0.25rem;
+}
+header span{
+	color: #fff;
+	font-size: 0.26rem;
+	position: absolute;
+	top: 0.68rem;
+	left: 1.1rem;
+}
+.img3{
+	width: 4.08rem;
+	height: 0.75rem;
+	position: absolute;
+	top: 1.62rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.span1{
+	position: absolute;
+	display: block;
+	top: 1.82rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* 头部结束 */
+
+/* 凯通开始 */
+.kaitong{
+	width: 7.02rem;
+	height: 2.7rem;
+	background: #fff;
+	position: absolute;
+	margin: auto;
+	top: 2.6rem;
+	left: 0;
+	right: 0;
+	font-size: 0.3rem;
+}
+.kaitong-top{
+	width: 100%;
+	height: 1.72rem;
+	border-bottom: 0.01rem solid #bbb;
+	overflow: hidden;
+}
+.kaitong-top span{
+	text-align: center;
+	display: block;
+	margin-top: 0.3rem;
+
+}
+.kaitong-top .imgtop1{
+	width: 0.21rem;
+	height: 0.33rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.8rem;
+}
+.bottom1,.bottom2{
+	margin-top: 0.3rem;
+	display: block;
+	float: left;
+}
+.bottom1{
+	margin-left: 0.2rem;
+}
+.imgtop2{
+	width: 0.21rem;
+	height: 0.33rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 2.05rem;
+}
+/* 凯通结束 */
+
+/* 红包开始 */
+.redBox{
+	width: 7.02rem;
+	height: 4.47rem;
+	background: #fff;
+	position: absolute;
+	margin: auto;
+	top: 5.5rem;
+	left: 0;
+	right: 0;
+	font-size: 0.3rem;
+}
+.redBoxNo1{
+	width: 100%;
+	height: 0.98rem;
+	/* background: skyblue; */
+	overflow: hidden;
+}
+.BoxNo1{
+	width: 0.6rem;
+	height: 0.6rem;
+	display: block;
+	margin-left: 0.4rem;
+	margin-top: 0.26rem;
+	float: left;
+}
+.BoxNo1sapn{
+	float: left;
+	margin-left: 0.4rem;
+	margin-top: 0.26rem;
+}
+.redBoxNo2{
+	width: 100%;
+	height: 1.39rem;
+	/* background: yellowgreen; */
+	overflow: hidden;
+}
+.BoxNo2{
+	width: 1.18rem;
+	height: 1.18rem;
+	display: block;
+	margin-left: 0.4rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.redBoxNext{
+	width: 4.61rem;
+	height: 0.7rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.redBoxNext-top{
+	width: 100%;
+	height: 0.29rem;
+	display: flex;
+	justify-content: space-between;
+}
+.redBoxNo3{
+	width: 100%;
+	height: 0.96rem;
+	/* background: yellow; */
+	overflow: hidden;
+	border-bottom: 0.01rem solid #ccc;
+}
+.redBoxNo3mon{
+	width: 6.24rem;
+	height: 0.62rem;
+	margin: 0.16rem auto;
+	/* background: pink; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.commennt{
+	width: 100%;
+	height: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.2rem;
+}
+.redBoxNo4{
+	width: 6.23rem;
+	height: 0.66rem;
+	background: #fff;
+	margin: 0.16rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/* 红包结束 */
+
+/* 支付方式开始 */
+.Alipay{
+	width: 7.02rem;
+	height: 2.01rem;
+	background: #fff;
+	position: absolute;
+	margin: auto;
+	top: 10.2rem;
+	left: 0;
+	right: 0;
+	font-size: 0.3rem;
+}
+.AlipayBox{
+	width: 100%;
+	height: 1rem;
+	/*  */
+	/* background: yellowgreen; */
+}
+.AlipayBox:nth-last-child(1){
+	margin-bottom: 1rem;
+}
+.AlipayBox span{
+	line-height: 1rem;
+	font-size: 0.2rem;
+	color: #666;
+}
+.AlipayBox .left{
+	margin-left: 0.4rem;
+	float: left;
+}
+.AlipayBox .right{
+	margin-right: 0.4rem;
+	float: right;
+}
+/* 支付方式结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	position: fixed;
+	margin: auto;
+	/* top: 12.4rem; */
+	bottom: 0;
+	left: 0;
+	/* right: 0; */
+	font-size: 0.3rem;
+}
+footer span{
+	line-height: 1rem;
+	float: left;
+}
+footer .left{
+	margin-left: 0.6rem;
+}
+footer .right{
+	margin-left: 3.0rem;
+}
+footer .button{
+	width: 2.38rem;
+	height: 1rem;
+	background: #28E3CA;
+	float: right;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+}
+/* 底部结束 */

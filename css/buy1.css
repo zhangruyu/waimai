@@ -1,0 +1,414 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #fff;
+}
+header{
+	width: 100%;
+	height: 0.4rem;
+	background-color: #16d6cb;
+}
+section{
+	width: 100%;
+	height: 2.48rem;
+	background-color: #17e2d6;
+	position: relative;
+}
+section .img1{
+	width: 0.18rem;
+	height: 0.37rem;
+	position: absolute;
+	top: 0.26rem;
+	left: 0.24rem;
+	background: url('../img/13.png');
+	background-size: contain;
+}
+section .img2{
+	width: 0.37rem;
+	height: 0.37rem;
+	position: absolute;
+	top: 0.26rem;
+	right: 0.36rem;
+	background: url('../img/14.png');
+	background-size: cover;
+}
+section:nth-of-type(2){
+	width: 100%;
+	height: 0.95rem;
+	background-color: #fff;
+	position: relative;
+}
+section .top{
+	width: 7.02rem;
+	height: 2.3rem;
+	position: absolute;
+	top: -1.34rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+section .box{
+	width: 1.92rem;
+	height: 1.92rem;
+	margin-left: 0.25rem;
+	box-shadow: 0.02rem  0.02rem 0.04rem 0.01rem rgba(0, 0, 0, 0.4);
+}
+section .box img{
+	width: 1.92rem;
+	height: 1.92rem;
+}
+section h1,section h2{
+	margin-left: 0.36rem;
+	font-size: 0.43rem;
+	font-weight: 400;
+	line-height: 0.54rem;
+	height: 0.54rem;
+	color: #fff;
+}
+section h2{
+	font-size: 0.24rem;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	margin-top: 0.28rem;
+}
+section h3{
+	display: block;
+	height: 0.4rem;
+	margin-top: 0.45rem;
+	margin-left: 0.36rem;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color: #222222;
+}
+section h3 span{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.26rem;
+	background: url('../img/4.png');
+	background-size: contain;
+	float: left;
+}
+main{
+	width: 7.02rem;
+	margin: 0 auto 1rem;
+	z-index: 10;
+}
+main .bott{
+	display: flex;
+	justify-content: space-around;
+}
+main .navs{
+	width: 100%;
+	height: 0.97rem;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 0.01rem solid #9e9e9e;
+	line-height: 0.98rem;
+	font-size: 0.28rem;
+	color: #333333;
+}
+main .navs span{
+	position: relative;
+}
+main .navs span:nth-of-type(1)::after{
+	content: "";
+	width: 0.51rem;
+	height: 0.08rem;
+	background-color: yellow;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+main .left{
+	width: 2.4rem;
+	padding: 0.56rem 1.01rem 0 0.34rem;
+	box-sizing: border-box;
+}
+main .left .son{
+	width: 100%;
+	height: 1.17rem;
+}
+main .left .son a{
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color: #333;
+}
+main .left .son:first-child a{
+	color: #000;
+	font-weight: 700;
+}
+main .left .son span{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-right: 0.08rem;
+	background: url('../img/5.png');
+	background-size: contain;
+	float: left;
+}
+main .right{
+	width: 4.62rem;
+}
+main .right h6{
+	line-height: 0.68rem;
+	margin-bottom: 0.13rem;
+	font-size: 0.18rem;
+	color: #ccc;
+}
+main .right .boxs{
+	width: 4.72rem;
+	height: 2.11rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+main .right .boxs img{
+	width: 1.48rem;
+	height: 1.48rem;
+}
+main .right .boxs .font{
+	width: 2.61rem;
+	font-size: 0.17rem;
+	font-weight: 400;
+	color: #222;
+}
+main .right .boxs .font b{
+	font-size: 0.28rem;
+	color: #000;
+}
+main .right .boxs .font p{
+	margin-top: 0.12rem;
+	margin-bottom: 0.12rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+main .right .boxs .font span{
+	display: block;
+	width: 50%;
+	float: left;
+	margin-bottom: 0.15rem;
+}
+main .right .boxs .font h5{
+	color: red;
+	font-size: 0.24rem;
+	display: block;
+	float: left;
+}
+main .right .font .sub,main .right .font .add{
+	width: 0.35rem;
+	height: 0.35rem;
+	border: 0.01rem solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 0.28rem;
+	border-radius: 50%;
+	font-size: 0.4rem;
+	float: right;
+	margin-right: 0.1rem;
+}
+main .right .font strong{
+	float: right;
+	margin-right: 0.1rem;
+	font-weight: 400;
+}
+main .right .font .add{
+	background-color: yellow;
+	border-color: yellow;
+	color: #fff;
+}
+main .right .con{
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	box-shadow: 0 -0.02rem 0.1rem 0.01rem rgba(0, 0, 0, 0.2);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 50;
+}
+footer .box{
+	width: 2.38rem;
+	height: 1rem;
+	float: right;
+	background: -webkit-linear-gradient(left,#5ce5a7,#26e2cc);
+	color: #fff;
+	line-height: 1rem;
+	font-size: 0.3rem;
+	text-align: center;
+}
+footer .imgbox{
+	width: 1.12rem;
+	height: 1.12rem;
+	border-radius: 50%;
+	margin: -0.31rem 0.35rem 0;
+	background: -webkit-linear-gradient(left,#5ce5a7,#26e2cc);
+	position: relative;
+}
+footer .imgbox img{
+	display: block;
+	height: 0.65rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+footer .imgbox::after{
+	content: "3";
+	position: absolute;
+	top: -0.07rem;
+	right: 0;
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 50%;
+	background-color: red;
+	line-height: 0.32rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.2rem;
+}
+footer .con{
+	height: 1rem;
+	position: absolute;
+	top: 0;
+	left: 1.82rem;
+}
+footer .con h1{
+	height: 0.25rem;
+	line-height: 0.25rem;
+	margin-top: 0.25rem;
+	font-size: 0.24rem;
+	font-weight: 400;
+	color: #000;
+}
+footer .con h2{
+	line-height: 0.5rem;
+	font-size: 0.2rem;
+	font-weight: 400;
+	margin-top: 0;
+}
+.bottom{
+	width: 100%;
+	height: 1.7rem;
+	background-color: #fff;
+	box-shadow: 0 -0.02rem 0.1rem 0.01rem rgba(0, 0, 0, 0.2);
+	position: fixed;
+	bottom: 1rem;
+	left: 0;
+	z-index: 40;
+}
+.bottom h2{
+	width: auto;
+	margin: 0.08rem auto 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 0.14rem;
+	color: #828282;
+}
+.bottom .con{
+	width: 100%;
+	height: auto;
+	padding: 0 0.55rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom .con span{
+	text-align: center;
+	font-weight: 400;
+	font-size: 0.14rem;
+	color: #828282;
+}
+.bottom .con .del1{
+	width: auto;
+	height: 0.3rem;
+	font-weight: 400;
+	font-size: 0.14rem;
+	color: #828282;
+	text-align: right;
+	line-height: 0.3rem;
+	margin-right: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bottom .con .del1 img{
+	float: left;
+	width: 0.18rem;
+	height: 0.18rem;
+	margin-right: 0.2rem;
+}
+.bottom .boxs{
+	width: 100%;
+	height: auto;
+	padding: 0 0.45rem 0 0.55rem;
+	box-sizing: border-box;
+	margin-top: 0.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom .boxs span{
+	text-align: center;
+	font-weight: 400;
+	font-size: 0.3rem;
+	color: #000;
+}
+.bottom .boxs .cons{
+	width: 2rem;
+	height: 0.37rem;
+	line-height: 0.37rem;
+	font-size: 0.3rem;
+}
+.bottom .boxs .cons h5{
+	display: block;
+	float: left;
+	font-size: 0.3rem;
+	font-weight: 400;
+}
+.bottom .boxs .cons .sub,.bottom .boxs .cons .add{
+	width: 0.35rem;
+	height: 0.35rem;
+	border: 0.01rem solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 0.28rem;
+	border-radius: 50%;
+	font-size: 0.4rem;
+	float: right;
+	margin-right: 0.1rem;
+}
+.bottom .boxs .cons strong{
+	float: right;
+	margin-right: 0.1rem;
+	font-weight: 400;
+}
+.bottom .boxs .cons .add{
+	background-color: yellow;
+	border-color: yellow;
+	color: #fff;
+}

@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #CEDDDC;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1.3rem;
+	background: #1df4e2;
+	position: relative;
+}
+.state{
+	width: 100%;
+	height: 0.4rem;
+	background: #1ce8d6;
+}
+.state img{
+	width: 100%;
+	height: 0.4rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.search{
+	width: 100%;
+	height: 0.9rem;
+	/* background: red; */
+	margin: 0 auto;
+	font-size: 0.24rem;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.search-laft,.search-right{
+	width: 0.47rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.search-laft img,.search-right img{
+	width: 0.47rem;
+	height: 0.47rem;
+}
+.search-se{
+	width: 4.48rem;
+	height: 0.51rem;
+	margin: auto 0;
+	background: #fff;
+	border-radius: 0.3rem;
+}
+.search-se img{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.3rem;
+	margin-top: 0.13rem;
+}
+.search-se span{
+	color: #000;
+	margin-top: -0.38rem;
+	margin-left: 1.2rem;
+	display: block;
+}
+/* 头部结束 */
+
+/* banner开始 */
+#banner{
+	width: 100%;
+	height: 3.57rem;
+	position: relative;
+	overflow: hidden;
+}
+#banner img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+#banner .btns{
+	width: 0.91rem;
+	height: 0.08rem;
+	position: absolute;
+	bottom: 0.07rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#banner .btns .btn{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background-color: #fff;
+}
+#banner .btns .hot{
+	background-color: #22eade;
+}
+/* banner结束 */
+
+/* 分类开始 */
+#classify{
+	width: 100%;
+	height: 2.18rem;
+	background: #fff;
+	overflow: hidden;
+}
+.classifyBox{
+	width: 7.03rem;
+	height: 1.69rem;
+	margin: 0 auto;
+	/* background: red; */
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #999;
+}
+.classifyBox-lis{
+	width: 1.33rem;
+	height: 1.42rem;
+	/* background: pink; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.classifyBox-lis img{
+	width: 1.03rem;
+	height: 1.03rem;
+	margin: 0 auto;
+}
+.classifyBox-lis span{
+	font-size: 0.3rem;
+	text-align: center;
+	display: block;
+}
+/* 分类结束 */
+
+/* 精品开始 */
+#Boutique{
+	width: 100%;
+	height: 5.34rem;
+	background: #fff;
+	margin-bottom: 0.3rem;
+}
+h2{
+	font-size: 0.4rem;
+	color: #666;
+	text-align: center;
+}
+.BoutiqueBox{
+	width: 6.74rem;
+	height: 4.42rem;
+	margin: 0.1rem auto;
+	background: #67DCEA;
+	overflow: hidden;
+}
+.BoutiqueBox-img{
+	width: 6.23rem;
+	height: 3.91rem;
+	margin: 0 auto;
+	/* background: red; */
+	margin-top: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.BoutiqueBox-img img{
+	width: 2.79rem;
+	height: 100%;
+}
+/* 精品结束 */
+
+/* 猜你喜欢开始 */
+#guess{
+	width: 100%;
+	height: 13.06rem;
+	background: #fff;
+	overflow: hidden;
+}
+.guessBox{
+	width: 7rem;
+	height: 11.7rem;
+	/* background: red; */
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.font{
+	color: #000;
+}
+.guessBoxNo1{
+	width: 100%;
+	height: 1.54rem;
+	/* background: skyblue; */
+	display: flex;
+	justify-content: space-between;
+}
+.guessBoxNo1-left,.guessBoxNo1-left img{
+	width: 2.21rem;
+	height: 1.54rem;
+}
+.guessBoxNo1-right{
+	width: 4.26rem;
+	height: 1.54rem;
+	/* background:pink;  */
+	font-size: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.mer{
+	width: 2.5rem;
+	height: 0.21rem;
+	display: flex;
+	justify-content: space-between;
+}
+.mer span{
+	line-height: 0.21rem;
+}
+.star{
+	width: 1.45rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.star img{
+	width: 0.21rem;
+	height: 0.21rem;
+}
+.salse{
+	display: flex;
+	justify-content: space-between;
+}
+.salse-left{
+	width: 2.3rem;
+	height: 0.21rem;
+}
+.salse-right{
+	width: 1.4rem;
+	height: 0.21rem;
+}
+.division{
+	width: 7.03rem;
+	height: 0.01rem;
+	background: #ccc;
+}
+/* 猜你喜欢结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	margin-top: 0.05rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.bottom{
+	width: 5.93rem;
+	height: 100%;
+	/* background: pink; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.bottomLit{
+	width: 0.55rem;
+	height: 0.8rem;
+	margin-top: 0.05rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.bottomLit a{
+	width: 0.54rem;
+	height: 0.6rem;
+}
+.bottomLit img{
+	display: block;
+	width: 0.54rem;
+	height: 0.6rem;
+}
+.bottomLit span{
+	text-align: center;
+	font-size: 0.2rem;
+	display: block;
+} 
+/* 底部结束 */

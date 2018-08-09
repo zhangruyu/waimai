@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #fff;
+}
+.search{
+	width: 100%;
+	height: 2.38rem;
+	position: relative;
+}
+.search img{
+	width: 100%;
+	height: 2.38rem;
+}
+.search .head{
+	position: absolute;
+	width: 1.48rem;
+	height: 1.48rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.2rem;
+}
+.search .left,.search .right{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+}
+.search .left{
+	top: 0.26rem;
+	left: 0.38rem;
+}
+.search .right{
+	top: 0.26rem;
+	right: 0.38rem;
+}
+
+/* 收藏开始 */
+.collect{
+	width: 4.76rem;
+	height: 0.97rem;
+	margin: 0 auto;
+	margin-top: 3rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.collectBox{
+	width: 0.57rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.collectBox img{
+	width: 0.57rem;
+	height: 0.57rem;
+}
+.collectBox span{
+	text-align: center;
+}
+/* 收藏结束 */
+
+/* 钱包开始 */
+.wallet{
+	width: 7.02rem;
+	height: 3.77rem;
+	margin: 0 auto;
+	/* background: yellowgreen; */
+	border-top: 0.01rem solid #ddd;
+	font-size: 0.3rem;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+}
+.walletBox{
+	width: 5.55rem;
+	height: 3.08rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	/* background: skyblue; */
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.walletBox-li{
+	width: 1rem;
+	height: 1.27rem;
+	margin: 0 0.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.walletBox-li img{
+	width: 0.94rem;
+	height: 0.94rem;
+}.walletBox-li span{
+	text-align: center;
+	font-size: 0.24rem;
+}
+.walletSSS{
+	height: 3rem;
+}
+footer{
+	height: 1rem;
+}
+
+/* 钱包结束 */

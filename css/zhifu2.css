@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #fff;
+}
+header{
+	width: 100%;
+	height: 0.4rem;
+	background-color: #16d6cb;
+}
+section{
+	width: 100%;
+	height: 2.64rem;
+	background-color: #17e2d6;
+	position: relative;
+	z-index: 40;
+}
+section .img1{
+	width: 0.18rem;
+	height: 0.37rem;
+	position: absolute;
+	top: 0.26rem;
+	left: 0.24rem;
+	background: url('../img/zf0.png');
+	background-size: contain;
+}
+section h3{
+	width: 7.02rem;
+	height: 0.34rem;
+	padding-left: 0.15rem;
+	font-weight: 400;
+	font-size: 0.34rem;
+	line-height: 0.34rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 1.06rem;
+	margin: 0 auto;
+	color: #fff;
+}
+.con{
+	width: 7.26rem;
+	height: 1.68rem;
+	margin: -0.84rem auto 0;
+	background: url('../img/zf1.png');
+	background-position: center;
+	background-size: 7.26rem 1.68rem;
+	padding: 0.16rem 0.45rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	z-index: 50;
+}
+.con img{
+	width: 0.42rem;
+	height: 0.46rem;
+	margin-right: 0.5rem;
+	z-index: 50;
+}
+.con h1{
+	height: 0.34rem;
+	line-height: 0.34rem;
+	font-size: 0.34rem;
+	font-weight: 400;
+	margin-right: 1.12rem;
+}
+.con span{
+	font-size: 0.34rem;
+	font-weight: 400;
+	color: red;
+	margin-right: 0.1rem;
+}
+.info{
+	width: 6.44rem;
+	height: 4.2rem;
+	margin: 0 auto;
+}
+.box{
+	width: 100%;
+	height: 6.8rem;
+	margin-top: -1.34rem;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 70;
+	box-shadow: 0 -0.02rem 0.1rem 0.03rem rgba(0, 0, 0, 0.1);
+}
+.box .tishi{
+	width: 3.69rem;
+	height: 0.23rem;
+	position: absolute;
+	top: 0.6rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.box .pass{
+	width: 4.34rem;
+	height: 0.43rem;
+	position: absolute;
+	bottom: 4.83rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.box .pass .box1{
+	width: 100%;
+	height: 0.19rem;
+}
+.box .pass .box1 .boxs{
+	width: 0.19rem;
+	height: 0.19rem;
+	margin: 0 0.4rem 0 0.18rem ;
+	background-color: #CECACA;
+	border-radius: 50%;
+	float: left;
+}
+.box .pass .box1 .boxs1{
+	width: 0.19rem;
+	height: 0.19rem;
+	margin: 0 0.4rem 0 0.18rem;
+	border-radius: 50%;
+	float: left;
+	font-size: 0.24rem;
+	font-weight: 400;
+	line-height: 0.19rem;
+	text-align: center;
+	color: #828080;
+	background-color: #fff;
+}
+.box .pass .son{
+	width: 0.54rem;
+	height: 0.06rem;
+	background: url('../img/zf12.png');
+	background-position: center;
+}
+.box .pass .son1{
+	background: url('../img/zf13.png');
+	background-position: center;
+}
+.box .btns{
+	width: 100%;
+	height: 4.28rem;
+	padding: 0.09rem 0.1rem;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+	background-color: #dcdfe5;
+}
+.box .btns .btn{
+	width: 32%;
+	height: 0.9rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+	box-shadow: 0 0.04rem 0 0 rgba(0, 0, 0, 0.3);
+}
+.box .btns .btn:nth-last-child(1),.box .btns .btn:nth-last-child(3){
+	background-color: #dcdfe5;
+	box-shadow: none;
+}
+.box .btns .btn:nth-last-child(1){
+	background: url('../img/zf28.png') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(1){
+	background: url('../img/zf19.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(2){
+	background: url('../img/zf20.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(3){
+	background: url('../img/zf21.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(4){
+	background: url('../img/zf22.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(5){
+	background: url('../img/zf23.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(6){
+	background: url('../img/zf24.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(7){
+	background: url('../img/zf25.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(8){
+	background: url('../img/zf26.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(9){
+	background: url('../img/zf27.gif') center;
+	background-size: 100%;
+}
+.box .btns .btn:nth-of-type(11){
+	background: url('../img/zf29.png') center;
+	background-size: 100%;
+}
