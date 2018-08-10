@@ -117,11 +117,15 @@ h1{
 	padding-left: 0.5rem;
 }
 .box .num .tel{
+	width: 0.4rem;
+	height: 0.45rem;
 	margin-top: 0.35rem;
 	margin-right: 0.15rem;
 	float: right;
 }
 .box .success{
+	width: 2rem;
+	/*height: 0.22rem;*/
 	position: absolute;
 	bottom: -0.2rem;
 	left: 0;

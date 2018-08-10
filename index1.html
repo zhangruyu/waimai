@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>订单详情</title>
+	<title>首页</title>
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/particulars.css">
 	<script src="js/rem1.js"></script>
+	<script src="js/animate.js"></script>
+	<script src="js/index.js"></script>
 </head>
 <body>
 	<!-- 头部开始 -->
@@ -15,49 +16,81 @@
 			<!--<img src="img/images/app_01.gif" alt="" class="state">-->
 		</div>
 		<div class="search">
-			<div>订 单 详 情</div>
+			<div class="search-laft" style="margin-left: 0.6rem;">
+				<img src="img/images/app_03.png" alt="">
+				<span style="text-align: center;">21°</span>
+			</div>	
+			<div class="search-se">
+				<img src="img/images/app2_03.png" alt="">
+				<span>附件美食/商家店铺</span>
+			</div>
+			<div class="search-right" style="width: 0.75rem;margin-right: 0.65rem;">
+				<img src="img/images/app1_03.png" alt="" style="margin-left: 0.2rem;width:0.4rem;margin-top:0.05rem;">
+				<span>小店区</span>
+			</div>
 		</div>
 	</header>
 	<!-- 头部结束 -->
 
-	<!-- 订单开始 -->
-	<div id="order">
-		<div class="orderBox">
-			<div class="orderBox-top">
-				<div class="orderBox-top-left">我的订单</div>
-				<div class="orderBox-top-right">
-					<img src="img/返回右.png" alt="">
-					<div class="font">全部订单</div>
-				</div>
+	<!-- banner开始 -->
+	<div id="banner">
+		<img src="img/1.jpg" alt="" style="left: 0px;">
+		<img src="img/1.jpg" alt="">
+		<img src="img/1.jpg" alt="">
+		<img src="img/1.jpg" alt="">
+		<img src="img/1.jpg" alt="">
+		<div class="btns">
+			<div class="btn hot"></div>
+			<div class="btn"></div>
+			<div class="btn"></div>
+			<div class="btn"></div>
+			<div class="btn"></div>
+		</div>
+	</div>
+	<!-- banner结束 -->
+
+	<!-- 分类开始 -->
+	<div id="classify">
+		<div class="classifyBox">
+			<div class="classifyBox-lis">
+				<img src="img/images/app_03.gif" alt="">
+				<span>美食</span>
 			</div>
-			<div class="orderBox-bottom">
-				<img src="img/c444dd619fe99b6a2671d4e9c296cc7071fc4918eaa1-r0bJUI_fw658.png" alt="">
-				<div class="orderBox-bottom-right">
-					<div class="rightNo1">
-						<div class="li1" style="font-size: 0.34rem">魏家凉皮</div>
-						<div class="li2">订单已送达</div>
-					</div>
-					<div class="rightNo2" style="color: #ccc;">
-						<div class="li1">2018-05-03 16:30</div>
-						<div class="li2">30分钟送达</div>
-					</div>
-					<div class="rightNo3">
-						<div class="li1" style="color: #999">秘制凉皮等3件商品</div>
-						<div class="li2">¥33.5</div>
-					</div>
-					<div class="rightNo4">
-						<img src="img/再来一单.png" alt="">
-						<img src="img/相似商家.png" alt="">
-					</div>
-				</div>
+			<div class="classifyBox-lis">
+				<img src="img/images/app_05.gif" alt="">
+				<span>电影/演出</span>
+			</div>
+			<div class="classifyBox-lis">
+				<img src="img/images/app_07.gif" alt="">
+				<span>酒店</span>
+			</div>
+			<div class="classifyBox-lis">
+				<img src="img/images/app_09.gif" alt="">
+				<span>娱乐</span>
+			</div>
+			<div class="classifyBox-lis">
+				<img src="img/images/app_12.png" alt="">
+				<span>全部分类</span>
+			</div>
+		</div>
+	</div>	
+	<!-- 分类结束 -->
+
+	<!-- 精品开始 -->
+	<div id="Boutique">
+		<h2>--精品推荐--</h2>
+		<div class="BoutiqueBox">
+			<div class="BoutiqueBox-img">
+				<img src="img/2.png" alt="">
+				<img src="img/3.jpg" alt="">
 			</div>
 		</div>
 	</div>
-	<!-- 订单结束 -->
+	<!-- 精品结束 -->
 
 	<!-- 猜你喜欢开始 -->
 	<div id="guess">
-		<h3 style="margin-top: 0.3rem">最近浏览</h3>
+		<h2 style="margin-top: 0.3rem">--猜你喜欢--</h2>
 		<div class="guessBox" style="margin-top: 0.3rem">
 			<div class="division"></div>
 			<div class="guessBoxNo1">
@@ -180,7 +213,7 @@
 				</div>
 			</div>
 			<div class="division"></div>
-			<div class="guessBoxNo1">
+			<a href="buy2.html" class="font"><div class="guessBoxNo1">
 				<div class="guessBoxNo1-left">
 					<img src="img/9.jpg" alt="" style="margin-left: 0.1rem">
 				</div>
@@ -202,7 +235,7 @@
 						<div class="salse-right">月售2300份</div>
 					</div>
 				</div>
-			</div>
+			</div></a>
 		</div>
 	</div>
 	<!-- 猜你喜欢结束 -->
@@ -211,7 +244,7 @@
 	<footer>
 		<div class="bottom">
 			<div class="bottomLit">
-				<a href="index1.html"><img src="img/首页(1).png" alt=""></a>
+				<a href="index.html"><img src="img/app_01_03.gif" alt=""></a>
 				<span>首页</span>
 			</div>
 			<div class="bottomLit">
@@ -219,7 +252,7 @@
 				<span>发现</span>
 			</div>
 			<div class="bottomLit">
-				<img src="img/5656.png" alt="">
+				<a href="particulars.html"><img src="img/app_01_07.gif" alt=""></a>
 				<span>订单</span>
 			</div>
 			<div class="bottomLit">
